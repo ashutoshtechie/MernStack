@@ -10,7 +10,7 @@ console.log("Title of the document is:", heading.textContent);
 // console.log(heading.textContent);
 
 // heading.style.color="blue";
-const button=document.getElementById("btn");
+const button=document.getElementById("clicking");
 
 
 
@@ -49,10 +49,7 @@ const button=document.getElementById("btn");
 
 
 function changeColor() {
-        heading.classList.toggle('clicked');
-        
-        heading.textContent = heading.classList.contains('clicked') ? 'Button Clicked!' : 'Hello JavaScript!';
-    // heading.backgroundColor = heading.style.backgroundColor === 'yellow' ? '' : 'yellow';
+        document.body.style.backgroundColor="lightblue";
 }
 
 // spread operator
